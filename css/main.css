@@ -1,0 +1,79 @@
+/*****Base Style and Grid****/
+body{
+    background-color: #E8E8E8;
+}
+
+#vision-board{
+    background-image: url('../img/background.png');
+    background-size: cover;
+    clear: both;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    overflow: auto;
+    margin: 50px auto;
+    height: 850px;
+    width:1200px;
+}
+
+.block{
+    box-sizing: border-box;
+    float:left;
+    width:400px;
+}
+
+.small-block{
+    height: 210px;
+    padding: 20px 40px;
+
+}
+
+.large-block{
+    height: 430px;
+    padding: 60px 40px;
+}
+
+.right{
+    text-align: right;
+}
+
+.center{
+    text-align: center;
+}
+
+.light-bg{
+    background-color: #FFFFFF;
+}
+
+.dark-bg{
+    background-color: #3B3B3B;
+}
+
+.title{
+    color: #FFFFFF;
+    font-size: 28px;
+}
+
+.highlight{
+    background-color: #FFF44F;
+    font-size: 20px;
+    padding: 5px 15px;
+
+}
+
+strong{
+    font-size: 38px;
+    text-transform: capitalize;
+}
+
+.year {
+    font-family: 'Permanent Marker', cursive;
+}
+p{
+    line-height: 30px;
+}
+
+#dog{
+    padding-top: 20px;
+}
